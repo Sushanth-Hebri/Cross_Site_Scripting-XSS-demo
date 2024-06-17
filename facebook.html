@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook-post</title>
+    <style>
+
+        
+        body {
+    background-image: url('bg.jpg');
+    background-size: cover; /* Adjusts the image size to cover the entire viewport */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+}
+h3{
+    color:rgb(1, 1, 1);
+}
+a{
+    color:rgb(109, 189, 228);
+ 
+}
+div{
+    margin-top:300px;
+    margin-left:1170px;
+    height:140px;
+    width:170px;
+    cursor:pointer;
+    background-color: rgba(255, 0, 0, 0);
+}
+    </style>
+</head>
+<body>
+    <div id="profileLink" onclick="openProfilePage()">
+      
+    </div>
+    <script>
+        function openProfilePage() {
+
+            var profileUrl = "sale.html";
+            
+         
+            window.open(profileUrl, "_blank");
+        }
+    </script>
+</body>
+</html>
